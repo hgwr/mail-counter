@@ -2,10 +2,25 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
+    <style>
+      body {
+        font-family: "SF Pro Text", Helvetica, Arial, sans-serif;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        background: #f9fafb;
+        color: #333;
+      }
+      strong#info {
+        display: block;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #666;
+      }
+    </style>
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <strong id="info">mail-counter version 1.0</strong>
 </body>
 </html>
