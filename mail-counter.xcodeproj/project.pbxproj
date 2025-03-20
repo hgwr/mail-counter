@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17858B8D2D8C017D003F5FDB /* mail-counter Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 17858B8C2D8C017D003F5FDB /* mail-counter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17858B772D8C017D003F5FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17858B522D8C017B003F5FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17858B592D8C017B003F5FDB;
+			remoteInfo = "mail-counter";
+		};
+		17858B812D8C017D003F5FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17858B522D8C017B003F5FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17858B592D8C017B003F5FDB;
+			remoteInfo = "mail-counter";
+		};
+		17858B8E2D8C017D003F5FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17858B522D8C017B003F5FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17858B8B2D8C017D003F5FDB;
+			remoteInfo = "mail-counter Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17858BAC2D8C017D003F5FDB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17858B8D2D8C017D003F5FDB /* mail-counter Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17858B5A2D8C017B003F5FDB /* mail-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mail-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17858B762D8C017D003F5FDB /* mail-counterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mail-counterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17858B802D8C017D003F5FDB /* mail-counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mail-counterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17858B8C2D8C017D003F5FDB /* mail-counter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mail-counter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17858BA62D8C017D003F5FDB /* Exceptions for "mail-counter Extension" folder in "mail-counter Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 17858B8B2D8C017D003F5FDB /* mail-counter Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		17858B5C2D8C017B003F5FDB /* mail-counter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mail-counter";
+			sourceTree = "<group>";
+		};
+		17858B792D8C017D003F5FDB /* mail-counterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mail-counterTests";
+			sourceTree = "<group>";
+		};
+		17858B832D8C017D003F5FDB /* mail-counterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mail-counterUITests";
+			sourceTree = "<group>";
+		};
+		17858B902D8C017D003F5FDB /* mail-counter Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17858BA62D8C017D003F5FDB /* Exceptions for "mail-counter Extension" folder in "mail-counter Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "mail-counter Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17858B572D8C017B003F5FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B732D8C017D003F5FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B7D2D8C017D003F5FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B892D8C017D003F5FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17858B512D8C017B003F5FDB = {
+			isa = PBXGroup;
+			children = (
+				17858B5C2D8C017B003F5FDB /* mail-counter */,
+				17858B792D8C017D003F5FDB /* mail-counterTests */,
+				17858B832D8C017D003F5FDB /* mail-counterUITests */,
+				17858B902D8C017D003F5FDB /* mail-counter Extension */,
+				17858B5B2D8C017B003F5FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17858B5B2D8C017B003F5FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17858B5A2D8C017B003F5FDB /* mail-counter.app */,
+				17858B762D8C017D003F5FDB /* mail-counterTests.xctest */,
+				17858B802D8C017D003F5FDB /* mail-counterUITests.xctest */,
+				17858B8C2D8C017D003F5FDB /* mail-counter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17858B592D8C017B003F5FDB /* mail-counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17858BAD2D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counter" */;
+			buildPhases = (
+				17858B562D8C017B003F5FDB /* Sources */,
+				17858B572D8C017B003F5FDB /* Frameworks */,
+				17858B582D8C017B003F5FDB /* Resources */,
+				17858BAC2D8C017D003F5FDB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17858B8F2D8C017D003F5FDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17858B5C2D8C017B003F5FDB /* mail-counter */,
+			);
+			name = "mail-counter";
+			packageProductDependencies = (
+			);
+			productName = "mail-counter";
+			productReference = 17858B5A2D8C017B003F5FDB /* mail-counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17858B752D8C017D003F5FDB /* mail-counterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17858BB02D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counterTests" */;
+			buildPhases = (
+				17858B722D8C017D003F5FDB /* Sources */,
+				17858B732D8C017D003F5FDB /* Frameworks */,
+				17858B742D8C017D003F5FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17858B782D8C017D003F5FDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17858B792D8C017D003F5FDB /* mail-counterTests */,
+			);
+			name = "mail-counterTests";
+			packageProductDependencies = (
+			);
+			productName = "mail-counterTests";
+			productReference = 17858B762D8C017D003F5FDB /* mail-counterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17858B7F2D8C017D003F5FDB /* mail-counterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17858BB32D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counterUITests" */;
+			buildPhases = (
+				17858B7C2D8C017D003F5FDB /* Sources */,
+				17858B7D2D8C017D003F5FDB /* Frameworks */,
+				17858B7E2D8C017D003F5FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17858B822D8C017D003F5FDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17858B832D8C017D003F5FDB /* mail-counterUITests */,
+			);
+			name = "mail-counterUITests";
+			packageProductDependencies = (
+			);
+			productName = "mail-counterUITests";
+			productReference = 17858B802D8C017D003F5FDB /* mail-counterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		17858B8B2D8C017D003F5FDB /* mail-counter Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17858BA72D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counter Extension" */;
+			buildPhases = (
+				17858B882D8C017D003F5FDB /* Sources */,
+				17858B892D8C017D003F5FDB /* Frameworks */,
+				17858B8A2D8C017D003F5FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				17858B902D8C017D003F5FDB /* mail-counter Extension */,
+			);
+			name = "mail-counter Extension";
+			packageProductDependencies = (
+			);
+			productName = "mail-counter Extension";
+			productReference = 17858B8C2D8C017D003F5FDB /* mail-counter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17858B522D8C017B003F5FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					17858B592D8C017B003F5FDB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					17858B752D8C017D003F5FDB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 17858B592D8C017B003F5FDB;
+					};
+					17858B7F2D8C017D003F5FDB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 17858B592D8C017B003F5FDB;
+					};
+					17858B8B2D8C017D003F5FDB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 17858B552D8C017B003F5FDB /* Build configuration list for PBXProject "mail-counter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17858B512D8C017B003F5FDB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 17858B5B2D8C017B003F5FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17858B592D8C017B003F5FDB /* mail-counter */,
+				17858B752D8C017D003F5FDB /* mail-counterTests */,
+				17858B7F2D8C017D003F5FDB /* mail-counterUITests */,
+				17858B8B2D8C017D003F5FDB /* mail-counter Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17858B582D8C017B003F5FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B742D8C017D003F5FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B7E2D8C017D003F5FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B8A2D8C017D003F5FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17858B562D8C017B003F5FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B722D8C017D003F5FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B7C2D8C017D003F5FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17858B882D8C017D003F5FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17858B782D8C017D003F5FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17858B592D8C017B003F5FDB /* mail-counter */;
+			targetProxy = 17858B772D8C017D003F5FDB /* PBXContainerItemProxy */;
+		};
+		17858B822D8C017D003F5FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17858B592D8C017B003F5FDB /* mail-counter */;
+			targetProxy = 17858B812D8C017D003F5FDB /* PBXContainerItemProxy */;
+		};
+		17858B8F2D8C017D003F5FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17858B8B2D8C017D003F5FDB /* mail-counter Extension */;
+			targetProxy = 17858B8E2D8C017D003F5FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17858BA82D8C017D003F5FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "mail-counter Extension/mail_counter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mail-counter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mail-counter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counter.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17858BA92D8C017D003F5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "mail-counter Extension/mail_counter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mail-counter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mail-counter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counter.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		17858BAA2D8C017D003F5FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17858BAB2D8C017D003F5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		17858BAE2D8C017D003F5FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mail-counter/mail-counter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "mail-counter";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17858BAF2D8C017D003F5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mail-counter/mail-counter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "mail-counter";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		17858BB12D8C017D003F5FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mail-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mail-counter";
+			};
+			name = Debug;
+		};
+		17858BB22D8C017D003F5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mail-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mail-counter";
+			};
+			name = Release;
+		};
+		17858BB42D8C017D003F5FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mail-counter";
+			};
+			name = Debug;
+		};
+		17858BB52D8C017D003F5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98QX37J37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.moreslowly.mail-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mail-counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17858B552D8C017B003F5FDB /* Build configuration list for PBXProject "mail-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17858BAA2D8C017D003F5FDB /* Debug */,
+				17858BAB2D8C017D003F5FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17858BA72D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counter Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17858BA82D8C017D003F5FDB /* Debug */,
+				17858BA92D8C017D003F5FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17858BAD2D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17858BAE2D8C017D003F5FDB /* Debug */,
+				17858BAF2D8C017D003F5FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17858BB02D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17858BB12D8C017D003F5FDB /* Debug */,
+				17858BB22D8C017D003F5FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17858BB32D8C017D003F5FDB /* Build configuration list for PBXNativeTarget "mail-counterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17858BB42D8C017D003F5FDB /* Debug */,
+				17858BB52D8C017D003F5FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17858B522D8C017B003F5FDB /* Project object */;
+}
