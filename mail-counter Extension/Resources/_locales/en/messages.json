@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is mail-counter Extension. You should tell us what your extension does here.",
+        "message": "mail-counter is a Safari extension that shows your Gmail unread email count directly in your browser toolbar.",
         "description": "Description of what the extension does."
     }
 }
