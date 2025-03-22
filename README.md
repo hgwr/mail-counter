@@ -17,3 +17,9 @@ mail-counter is a Safari extension that shows your Gmail unread email count dire
 Perfect for Gmail users who prefer a streamlined and efficient browsing experience.
 
 Simplify your Gmail inbox checking—install mail-counter today!
+
+## Link
+
+- [App Store](https://apps.apple.com/us/app/mail-counter/id6743525362)
+- [GitHub](https://github.com/hgwr/mail-counter)
+- [Abount](https://www.moreslowly.jp/mail-counter/)
